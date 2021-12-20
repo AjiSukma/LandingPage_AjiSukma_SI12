@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-image: url(Aset/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+    background-color: #f3c154;
+    height: 86px;
+    border-radius: 10px;
+    z-index: 999;
+    border: solid;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logonav {
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: -55px;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(94, 18, 18);
+}
+
+h2 {
+    color:#5e1212;
+    margin-top: 25px;
+}
+
+.home {
+    line-height: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: -600px;
+    margin-top: 130px;
+    color: rgb(94, 18, 18);
+}
+
+.gelas {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -310px;
+    margin-right: 70px;
+}
+
+.kutipan {
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -600px;
+    margin-top: -100px;
+    color: rgb(94, 18, 18);
+    
+}
+
+.btn{
+    margin-top: -10px;
+    background-color: #e2876b;
+    border: none;
+    color: rgb(94, 18, 18);
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover,
+.btn:focus {
+    background: rgb(209, 131, 76);
+}
+
+.btn:active {
+    background: #bd592b;
+}
+
+aside {
+    background-color: #e0b698;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about {
+    text-align: center;
+    font-size: 40px;
+    color: #5e1212;
+    margin-top: 50px;
+}
+
+.aboutkedai {
+    text-indent: 5em;
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px;
+    color: #5e1212;
+}
+
+.variant {
+    color: #5e1212;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr );
+}
+
+table, td {
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 900px;
+    position: relative;
+    margin: auto;
+    background-color: bisque;
+}
+
+button{
+    background-color: #fc9d71;
+    border: none;
+    color: rgb(94, 18, 18);
+    font-size: 20px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+button:hover,
+button:focus {
+    background: rgb(209, 131, 76);
+}
+
+button:active {
+    background: #bd592b;
+}
+
+.vikosar {
+    text-align: center;
+    font-size: 40px;
+    color: #5e1212;
+}
+
+.sarmas {
+    background-color: #fc9d71;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.artikelytkom{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+input {
+    background-color: #fc9d71;
+    border: none;
+    color: rgb(94, 18, 18);
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+input:hover,
+input:focus {
+    background: rgb(209, 131, 76);
+}
+
+input:active {
+    background: #bd592b;
+}
+
+.footerkr{
+    font-weight: bold;
+}
+
+.footer {
+    line-height: 10px;
+    color: #5e1212;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2 {
+    line-height: 10px;
+    color: #5e1212;
+}
+footer {
+    background-color: #fc9d71;
+    border:solid;
+}
+
+.cr {
+    line-height: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #5e12126e;
+}

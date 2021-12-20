@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tugas0.1.css">
+    <title>Kopi Rebel</title>
+</head>
+<body>
+    <Nav class="sticky" id="nav">
+        <div class="logo">
+        <a href=""><img class="logonav" src="Aset/Logo.png" width="80" alt=""></a>
+        <a href=""><h2>KOPI REBEL</h2></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#variant">Variant</a></li>
+                <li><a href="#" onclick="vocer()">Discount Voucher</a></li>
+                <li><button class="btn" onclick="notif()">Login</button></li>
+            </ul>
+        </div>
+    </Nav>
+    <section>
+        <div class="home">
+            <h3>KOPI REBEL</h3>
+            <P>"Bebas berimajinasi</P>
+            <P>Tanpa dibatasi"</P>
+        </div>
+        <div class="gelas">
+            <img width="500" height="400" src="aset/Gelas-Kopi-Copy.png" alt="">
+        </div>
+        <div class="kutipan">
+            <p>Kopi yang dinikmati oleh kaum-kaum muda</p>
+            <p>dengan rasa yang takkan mati dan tanpa jeda</p>
+            <p>hadirlah dengan varian rasa yang begitu beragam</p>
+            <p>karena setiap penikmat mempunya rasa yang tak seragam.</p>
+        </div>
+    </section>
+    <br>
+    <aside>
+        <h2  class="about" id="about">About</h2>
+        <div class="aboutkedai">
+            <p> Kedai Kopi Rebel sudah ada sejak 5 Desember 2021 yang didirikan oleh Aji Sukma. Kini Kopi Rebel
+                punya tiga cabang yang berada di wilayah Kab. Tangerang yakni lebih tepatnya ada di Kec. Solear
+                Kec. Cisoka, dan Kec. Tigaraksa. Kopi Rabel memiliki banyak varian rasa yang tersedi untuk para
+                kaum muda. Dengan harga yang bersahabat kedai kopi ini memberikan berbagai fasilitas khususnya buku
+                bacaan untuk menemani pengunjung yang gemar membaca baik fiksi maupun non-fiksi. Kami memilih buku sebagai
+                fasilitas utama dalam perusahaan ini karena mengingat minat baca para anak muda jaman sekarang
+                ini menurun, dan Kami berharap dengan adanya kedaikopi ini bisa meningkatkan minat baca mereka.
+            </p>
+            <p> Selain berbagai macam buku kami juga memiliki fasilitas tambahan seperti alat musik bagi pengunjung
+                yang suka akan musik, dan wifi bagi pengunjung yang hanya sekedar ingin nongkrong sambil browsing
+                berbagai hal dari tugas kuliah sampai hal yang paling tidak penting sekalipun. Kedai Kopi ini di dirikan
+                untuk kaum muda dan para Mahasiswa yang gemar akan membaca berbagai buku pengetahuan. Maka dari itu
+                saya akan membuat kedai kopi dengan pembuatan yang berbeda agar orang yang menyukai minuman ini tidak
+                merasa bosan karena banyaknya kalangan masyarakat yang menyukai minuman ini, maka saya akan berusaha
+                memberikan kualitas dan mutu yang baik yang harganya relatif murah bagi semua kalangan masyarakat.
+            </p>
+            <br>
+        </div>
+    </aside>
+    <article>
+        <h2 id="variant" class="variant">Variant</h2>
+        <table>
+            <tr>
+                <td style="text-align: center; background-color: #fc9d71;">Espresso</td>
+                <td style="text-align: center; background-color: #fc9d71;">Americano</td>
+                <td style="text-align: center; background-color: #fc9d71;">Caramel Coffee</td>
+            </tr>
+            <tr>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Espresso.png" width="145" alt=""></td>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Americano.png" width="145" alt=""></td>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Macchiato_al_Cioccolato.png" width="145" alt=""></td>
+            </tr>
+            <tr>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td style="text-align: center; background-color: #fc9d71;">Cochocaramel</td>
+                <td style="text-align: center; background-color: #fc9d71;">Caffe Latte</td>
+                <td style="text-align: center; background-color: #fc9d71;">Cioccolato Coffee</td>
+            </tr>
+            <tr>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Cochocaramel.png" width="145" alt=""></td>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Caffe_Latte.png" width="145" alt=""></td>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Macchiato_al_Cioccolato.png" width="145" alt=""></td>
+            </tr>
+            <tr>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td style="text-align: center; background-color: #fc9d71;">Cappucino</td>
+                <td style="text-align: center; background-color: #fc9d71;">Correto</td>
+                <td style="text-align: center; background-color: #fc9d71;">Doppio</td>
+            </tr>
+            <tr>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Cappucino.png" width="145" alt=""></td>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Correto.png" width="145" alt=""></td>
+                <td><img style="margin-left:auto; margin-right:auto; display:block;" src="Aset/Doppio.png" width="145" alt=""></td>
+            </tr>
+            <tr>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+                <td><button onclick="beli()" style="margin: 10px; position: relative; left: 50px; right: 50px;">Beli Sekarang</button></td>
+            </tr>
+        </table>
+    </article>
+    <br>
+    <h2 class="vikosar">Video dan Kotak Saran</h2>
+    <div class="artikelytkom">
+        <div class="yt">
+        <iframe width="560" style="border: solid;" height="325" src="https://www.youtube.com/embed/JiYoInklDAQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+        <div class="colorkom">
+            <p class="sarmas">Saran dan Masukan:</p>
+            <p style="color: #5e1212;"><textarea cols="50" rows="10" style="border: solid black; background-color: bisque;"></textarea></p>
+            <p><input onclick="kirim()" type="submit" value="Kirim"></p>
+        </div>
+    </div>
+        <div class="cr">
+            <p>Website Landing Page By Aji Sukma</p>
+            <p>Copyright 2021</p>
+        </div>
+    <br>
+    <footer>
+        <div class="content">
+        <div class="footer">
+            <p class="footerkr">Kopi Rebel</p>
+            <p>Toko 1 : Kec. Solear, Jl. Adiyasa Blok A no.14</p>
+            <p>Toko 2 : Kec. Cisoka, Jl. Adiyasa (Tepat di depan Polsek Cisoka)</p>
+            <p>Toko 3 : Kec. Tigaraksa, Jl. Arya Wangsakara, Ruko no.53</p>
+        </div>
+        <div class="footer2">
+            <p class="footerkr">Kontak</p>
+            <p>Telepon &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace;: <a href="#">0210 0000 3333</a></p>
+            <p>Email &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace;: <a href="#">kopirebel666@gmail.com</a></p>
+            <p>Instagram &NonBreakingSpace;: <a href="https://www.instagram.com/j_3ight/" target="_blank">https://www.instagram.com/j_3ight/</a></p>
+        </div> 
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="Tugas0.1.js">
+    </script>
+</body>
+</html>
